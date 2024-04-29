@@ -1,0 +1,145 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    background-color: #f2f4f5;
+}
+form {
+    display: block;
+    max-width: 60%;
+    margin:2rem auto;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    min-width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    min-width: 50%;
+    legend {
+        text-align: center;
+        font-weight: 700;
+        font-size: 18pt;
+    }
+}
+
+input, select, textarea {
+    display: block;
+    height: 1.8rem;
+    width: 90%;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 15px;
+    /* border-color: #7ca196; */
+    background-color: #f8f6ff;
+    outline-color: #7ca196;
+    padding: 0.5rem 1rem;
+}
+select {
+    height: 2.8rem !important;
+    width: 95% !important;
+}
+.flex {
+    display: flex;
+    padding-top: 0.1rem;
+    margin-bottom:0!important;
+}
+#l, #p, #coding_club, #techno_club, #english_club {
+    width: fit-content !important;
+    margin-right: 0.5rem;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+textarea {
+    min-height: 4rem !important;
+}
+
+#pendapatan {
+    width: 50%;
+    margin-top: -0.2rem;
+    margin-bottom: 0;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+span {
+    color: #5E5B67;
+}
+h3 {
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    min-width: 10rem;
+    padding: 0 1rem;
+    text-align: center;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    background-color: #6c7ae0;
+    color: #fff;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #5A56C6;
+}
+
+.form-button {
+    background:#f4f6f8;
+    border-radius: 50rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    width:150px;
+    color: #fff;
+    border: none;
+    outline:none;
+}
+.form-button:hover {
+    background: #ffc107;
+}
+
+table {
+    color: gray;
+    margin-top: 1rem;
+}
+td, th {
+    padding: 1rem;
+}
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+tr:hover {
+    background-color: #9997DD;
+}
+#table-container {
+    display: block;
+    width: 80%;
+    margin: 3rem auto;
+    box-sizing: border-box;
+}
+
+th {
+   background-color: #6c7ae0;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+}
+.fa-solid {
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+fieldset {
+    background-color: #fff;
+    border-radius: 20px;
+}
